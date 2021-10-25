@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    span.s1 {font: 12.0px 'PingFang SC'}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><br></p>
+<p class="p2">&lt;!DOCTYPE html&gt;</p>
+<p class="p2">&lt;html&gt;</p>
+<p class="p2">&lt;head&gt;</p>
+<p class="p2">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p2">&lt;meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /&gt;</p>
+<p class="p2">&lt;meta http-equiv="Pragma" content="no-cache" /&gt;</p>
+<p class="p2">&lt;meta http-equiv="Expires" content="0" /&gt;</p>
+<p class="p2">&lt;meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover"&gt;</p>
+<p class="p2">&lt;title&gt;<span class="s1">提交申请</span>&lt;/title&gt;</p>
+<p class="p2">&lt;link rel="stylesheet" href="css/weui.min.css"&gt;</p>
+<p class="p2">&lt;link rel="stylesheet" href="css/app.css?v=202009140902"&gt;</p>
+<p class="p2">&lt;/head&gt;</p>
+<p class="p2">&lt;body ontouchstart&gt;</p>
+<p class="p2">&lt;p id="bear"&gt;&lt;/p&gt;</p>
+<p class="p2">&lt;div id="form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span>&lt;form id="sub_form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div class="weui-cells__title"&gt;<span class="s1">详细申请信息</span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;div class="weui-cells weui-cells_form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;div class="weui-cells__title"&gt;<span class="s1">目的地</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;div class="weui-cells weui-cells_radio"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;label class="weui-cell weui-check__label" for="r1"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__bd"&gt;<span class="s1">沈阳市内</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="mdd"<span class="Apple-converted-space">  </span>value="<span class="s1">沈阳市内</span>" id="r1" checked&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;label class="weui-cell weui-check__label" for="r2"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__bd"&gt;<span class="s1">沈阳市外辽宁省内</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="mdd"<span class="Apple-converted-space">  </span>value="<span class="s1">沈阳市外辽宁省内</span>" id="r2"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;label class="weui-cell weui-check__label" for="r3"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;div class="weui-cell__bd"&gt;<span class="s1">辽宁省外</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="mdd"<span class="Apple-converted-space">  </span>value="<span class="s1">辽宁省外</span>" id="r3"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div class="weui-cells weui-cells_form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;div class="weui-cells__title"&gt;<span class="s1">出校日期</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;div class="weui-cells"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;div class="weui-cell__bd"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;input class="weui-input" name="cxrq" type="text" readonly id="cxrq" required placeholder="<span class="s1">请选择您的出校日期</span>" autocomplete="off"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;div class="weui-cell__ft"&gt; &lt;i class="weui-icon-warn"&gt;&lt;/i&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;input type="hidden" name="fxrqh" id="fxrqh"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;div class="weui-cells weui-cells_form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;div class="weui-cells__title"&gt;<span class="s1">返校日期</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;div class="weui-cells"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;div class="weui-cell__bd"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;input class="weui-input" name="fxrq" type="text" readonly disabled id="fxrq" required placeholder="<span class="s1">请选择您的返校日期</span>" autocomplete="off"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;div class="weui-cell__ft"&gt; &lt;i class="weui-icon-warn"&gt;&lt;/i&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div class="weui-cells weui-cells_form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;div class="weui-cells__title"&gt;<span class="s1">出校原由</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>&lt;div class="weui-cells weui-cells_radio"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;label class="weui-cell weui-check__label" for="r4"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__bd"&gt;<span class="s1">实习</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="cxyylb"<span class="Apple-converted-space">  </span>value="<span class="s1">实习</span>" id="r4"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;label class="weui-cell weui-check__label" for="r5"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__bd"&gt;<span class="s1">求职</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="cxyylb"<span class="Apple-converted-space">  </span>value="<span class="s1">求职</span>" id="r5"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;label class="weui-cell weui-check__label" for="r6"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;div class="weui-cell__bd"&gt;<span class="s1">探亲</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="cxyylb"<span class="Apple-converted-space">  </span>value="<span class="s1">探亲</span>" id="r6" checked&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;label class="weui-cell weui-check__label" for="r7"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;div class="weui-cell__bd"&gt;<span class="s1">校外就医</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="cxyylb"<span class="Apple-converted-space">  </span>value="<span class="s1">校外就医</span>" id="r7"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;label class="weui-cell weui-check__label" for="r8"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;div class="weui-cell__bd"&gt;<span class="s1">考试</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="cxyylb"<span class="Apple-converted-space">  </span>value="<span class="s1">考试</span>" id="r8"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;label class="weui-cell weui-check__label" for="r9"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;div class="weui-cell__bd"&gt;<span class="s1">其它</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="weui-cell__ft"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;input type="radio" required class="weui-check" name="cxyylb"<span class="Apple-converted-space">  </span>value="<span class="s1">其它</span>" id="r9"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;span class="weui-icon-checked"&gt;&lt;/span&gt; &lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>&lt;div class="weui-cell "&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;div class="weui-cell__bd"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;textarea class="weui-textarea" required placeholder="<span class="s1">请如实填写您的外出原因，外出详细目的地等信息（</span>200<span class="s1">字内），并向辅导员提供相关证明材料</span>" name="cxyy" id="cxyy" rows="5" autocomplete="off" maxlength="200"&gt;&lt;/textarea&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">   </span></p>
+<p class="p1"><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-converted-space">   </span>&lt;div class="weui-btn-area"&gt; &lt;a id="formSubmitBtn" href="javascript:" class="weui-btn weui-btn_primary"&gt;<span class="s1">提</span> <span class="s1">交</span>&lt;/a&gt; &lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-converted-space">  </span>&lt;/form&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p2">&lt;br/&gt;</p>
+<p class="p2">&lt;div class="weui-footer"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span>&lt;p class="weui-footer__text"&gt;<span class="s1">版权所有</span> &amp;copy; <span class="s1">辽宁大学</span>&lt;/p&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p2">&lt;script type="text/javascript" src="js/weui.min.js?v=20211025115535"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;script type="text/javascript" src="js/addqingjia.js?v=20211025115535"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;/body&gt;</p>
+<p class="p2">&lt;/html&gt;</p>
+<p class="p1"><br></p>
+</body>
+</html>
